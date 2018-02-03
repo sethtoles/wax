@@ -1,0 +1,24 @@
+{
+  "name": "wax",
+  "version": "1.0.0",
+  "description": "a game",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethtoles/wax.git"
+  },
+  "author": "Seth Toles, Omri Bernstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethtoles/wax/issues"
+  },
+  "homepage": "https://github.com/sethtoles/wax#readme",
+  "scripts": {
+    "server": "./node_modules/http-server/bin/http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.10.0"
+  }
+}
